@@ -1,0 +1,26 @@
+What is DCL?
+DCL (Data Control Language) includes commands like GRANT and REVOKE, which are useful to give “rights & permissions.” Other permission controls parameters of the database system.
+
+Examples of DCL commands
+Commands that come under DCL:
+
+Grant
+Revoke
+Grant
+This command is use to give user access privileges to a database.
+
+Syntax:
+
+GRANT SELECT, UPDATE ON MY_TABLE TO SOME_USER, ANOTHER_USER;  
+For example:
+
+GRANT SELECT ON Users TO'Tom'@'localhost;
+Revoke
+It is useful to back permissions from the user.
+
+Syntax:
+
+REVOKE privilege_nameON object_nameFROM {user_name |PUBLIC |role_name}
+For example:
+
+REVOKE SELECT, UPDATE ON student FROM BCA, MCA;  

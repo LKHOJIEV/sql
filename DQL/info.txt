@@ -1,0 +1,16 @@
+What is DQL?
+Data Query Language (DQL) is used to fetch the data from the database. It uses only one command:
+
+SELECT
+This command helps you to select the attribute based on the condition described by the WHERE clause.
+
+Syntax:
+
+SELECT expressions    
+FROM TABLES    
+WHERE conditions;  
+For example:
+
+SELECT FirstName  
+FROM Student  
+WHERE RollNo > 15;  

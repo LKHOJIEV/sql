@@ -1,0 +1,50 @@
+What is DDL?
+Data Definition Language helps you to define the database structure or schema. Let’s learn about DDL commands with syntax.
+
+Five types of DDL commands in SQL are:
+
+CREATE
+CREATE statements is used to define the database structure schema:
+
+Syntax:
+
+CREATE TABLE TABLE_NAME (COLUMN_NAME DATATYPES[,....]);
+For example:
+
+Create database university;
+Create table students;
+Create view for_students;
+DROP
+Drops commands remove tables and databases from RDBMS.
+
+Syntax
+
+DROP TABLE ;
+For example:
+
+Drop object_type object_name;
+Drop database university;
+Drop table student;
+ALTER
+Alters command allows you to alter the structure of the database.
+
+Syntax:
+
+To add a new column in the table
+
+ALTER TABLE table_name ADD column_name COLUMN-definition; 
+To modify an existing column in the table:
+
+ALTER TABLE MODIFY(COLUMN DEFINITION....);  
+For example:
+
+Alter table guru99 add subject varchar; 
+TRUNCATE
+This command used to delete all the rows from the table and free the space containing the table.
+
+Syntax:
+
+TRUNCATE TABLE table_name;  
+Example:
+
+TRUNCATE table students;
